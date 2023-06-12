@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "cva:build:page": "yarn cva-landing-page/src/index.html run"
+    "build": "node config.js"
   }
 }
