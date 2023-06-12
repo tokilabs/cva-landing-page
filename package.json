@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "cva:build:page": "yarn projects/cva/apps/cva-page/src/home-app-landing-onePage.html run"
+    "cva:build:page": "yarn cva-landing-page/src/index.html run"
   }
 }
