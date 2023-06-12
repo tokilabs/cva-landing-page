@@ -1,5 +1,8 @@
 {
-  "name": "prepros-project",
+  "name": "cva-page",
   "version": "1.0.0",
-  "description": "This is a dummy package.json file created by Prepros to manage packages with NPM. You can edit this file to add your own information."
+  "description": "",
+  "scripts": {
+    "cva:build:page": "yarn projects/cva/apps/cva-page/src/home-app-landing-onePage.html run"
+  }
 }
