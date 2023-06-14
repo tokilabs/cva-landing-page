@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-html/html",
+    "stylelint-config-html/xml",
+    "stylelint-config-html/svelte",
+    "stylelint-prettier/recommended",
+    "stylelint-config-prettier"
+  ],
+  "plugins": ["stylelint-prettier"]
+}
