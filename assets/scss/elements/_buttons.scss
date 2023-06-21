@@ -130,6 +130,17 @@
             }
         }
     }
+//Hover button
+    &.hover-button{
+        &:hover{
+            background-color: #C12906 !important;
+            border-color: #fff !important;
+            span, i,
+            small{
+                color: #fff;
+            }
+        }
+    }
 
     &.hover-blue5{
         &:hover{

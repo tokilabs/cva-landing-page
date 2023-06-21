@@ -7,7 +7,7 @@ Description: Iteck is a Modern Software and Technology HTML Theme for agencies t
 Version: 1.0.0     
 */
 /* -----------------------------------------------------------
-TABLE OF CONTENTS:-                                                                                                      
+TABLE OF CONTENTS: CVA COLOR #ED6637 #EFA08E #C12906 #9594B2 #D0D0DD #FFFFFF
 --------------------------------------------------------------
 * variable
 	- text colors
@@ -70,11 +70,11 @@ TABLE OF CONTENTS:-
 ================================================================*/
 /* --------------- variable --------------- */
 :root {
-  --color-main:#0066ff;
-  --color-primary:#0066ff;
+  --color-main:#ED6637;
+  --color-primary:#C12906;
   --color-secondary:#02b5ff;
   --color-blue2: #4a00e1;
-  --color-blue4: #b7440f;
+  --color-blue4: #5842bc;
   --color-blue5: #157efb;
   --color-blue6: #6640f4;
   --color-blue7: #8169f1;
@@ -104,6 +104,16 @@ TABLE OF CONTENTS:-
 .bg-main {
   background-color: var(--color-main) !important;
   border-color: var(--color-main) !important;
+}
+
+.hover-main {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.hover-main:hover {
+  color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
 }
 
 .color-lightBlue {
@@ -1838,6 +1848,18 @@ small.text {
 .btn.hover-blue4:hover small {
   color: #fff;
 }
+.butn.hover-button:hover,
+.btn.hover-button:hover {
+  background-color: #C12906 !important;
+  border-color: #fff !important;
+}
+.butn.hover-button:hover span, .butn.hover-button:hover i,
+.butn.hover-button:hover small,
+.btn.hover-button:hover span,
+.btn.hover-button:hover i,
+.btn.hover-button:hover small {
+  color: #fff;
+}
 .butn.hover-blue5:hover,
 .btn.hover-blue5:hover {
   background: var(--color-blue5) !important;
@@ -1988,7 +2010,7 @@ small.text {
   padding: 5px 10px;
   background-color: #f7f4ff;
   border-radius: 5px;
-  color: var(--color-blue4);
+  color: var(--color-main);
   margin-bottom: 20px;
 }
 .section-head.style-4 h2 {
@@ -1999,9 +2021,9 @@ small.text {
 .section-head.style-4 h2 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#25391B), color-stop(30%, #2b4b1b), color-stop(30%, #3b4930), color-stop(73%, #576E45), to(#97B583));
-  background-image: -o-linear-gradient(left, #25391B 0%, #2b4b1b 30%, #3b4930 30%, #576E45 73%, #97B583 100%);
-  background-image: linear-gradient(to right, #25391B 0%, #2b4b1b 30%, #3b4930 30%, #576E45 73%, #97B583 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#C12906), color-stop(30%, #ED6637), color-stop(30%, #ED6637), color-stop(73%, #EFA08E), to(#9594B2));
+  background-image: -o-linear-gradient(left, #C12906 0%, #ED6637 30%, #ED6637 30%, #EFA08E 73%, #9594B2 100%);
+  background-image: linear-gradient(to right, #C12906 0%, #ED6637 30%, #ED6637 30%, #EFA08E 73%, #9594B2 100%);
 }
 .section-head.style-4 h5 {
   font-size: 16px;
@@ -3531,7 +3553,7 @@ header.style-4 .content .info .title_small {
   padding: 5px 10px;
   background-color: #f7f4ff;
   border-radius: 5px;
-  color: var(--color-blue4);
+  color: var(--color-main);
 }
 header.style-4 .content .info h1 {
   font-size: 52px;
@@ -3541,9 +3563,9 @@ header.style-4 .content .info h1 {
 header.style-4 .content .info h1 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#25391B), color-stop(30%, #2b4b1b), color-stop(30%, #3b4930), color-stop(73%, #576E45), to(#97B583));
-  background-image: -o-linear-gradient(left, #25391B 0%, #2b4b1b 30%, #3b4930 30%, #576E45 73%, #97B583 100%);
-  background-image: linear-gradient(to right, #25391B 0%, #2b4b1b 30%, #3b4930 30%, #576E45 73%, #97B583 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#C12906), color-stop(30%, #ED6637), color-stop(30%, #ED6637), color-stop(73%, #EFA08E), to(#9594B2));
+  background-image: -o-linear-gradient(left, #C12906 0%, #ED6637 30%, #ED6637 30%, #EFA08E 73%, #9594B2 100%);
+  background-image: linear-gradient(to right, #C12906 0%, #ED6637 30%, #ED6637 30%, #EFA08E 73%, #9594B2 100%);
 }
 header.style-4 .content .info .text {
   color: #666;
@@ -3560,7 +3582,7 @@ header.style-4 .content .info .play-btn {
 header.style-4 .content .info .play-btn .icon {
   width: 42px;
   height: 42px;
-  border: 1px solid rgba(88, 66, 188, 0.6);
+  border: 1px solid var(--color-main);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -3573,7 +3595,7 @@ header.style-4 .content .info .play-btn .icon {
   border-radius: 50%;
 }
 header.style-4 .content .info .play-btn .icon i {
-  color: var(--color-blue4);
+  color: var(--color-main);
   font-size: 16px;
 }
 header.style-4 .content .bubble {
@@ -3590,10 +3612,10 @@ header.style-4 .content .bubble {
 header.style-4 .wave {
   position: absolute;
   left: -3%;
-  bottom: -10px;
+  bottom: -20px;
   width: 106%;
   max-width: unset;
-  height: 240px;
+  height: 260px;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: top;
@@ -6593,14 +6615,14 @@ header.style-15 .countdown-content .logos img {
   font-size: 21px;
 }
 .project-card.style-6 .info .title:hover {
-  color: var(--color-blue6);
+  color: var(--color-main);
 }
 .project-card.style-6 .info .title:hover a {
-  color: var(--color-blue6);
+  color: var(--color-main);
 }
 .project-card.style-6 .info small {
   font-size: 11px;
-  color: var(--color-blue6);
+  color: var(--color-main);
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -7347,7 +7369,7 @@ header.style-15 .countdown-content .logos img {
 .testimonials.style-4 .content .play-btn .icon {
   width: 42px;
   height: 42px;
-  border: 1px solid rgba(88, 66, 188, 0.6);
+  border: 1px solid var(--color-main);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -7360,7 +7382,7 @@ header.style-15 .countdown-content .logos img {
   border-radius: 50%;
 }
 .testimonials.style-4 .content .play-btn .icon i {
-  color: var(--color-blue4);
+  color: var(--color-main);
   font-size: 16px;
 }
 .testimonials.style-4 .content .stars {
@@ -10172,7 +10194,7 @@ header.style-15 .countdown-content .logos img {
 ================================================================*/
 /* --------------- community style-4 --------------- */
 .community.style-4 .content {
-  background-color: rgba(255, 255, 255, 0.4823529412);
+  background-color: rgba(237, 100, 55, 0.168627451);
   border: 1px solid rgba(153, 153, 153, 0.2);
   border-radius: 15px;
   padding: 30px 0;
@@ -10206,9 +10228,9 @@ header.style-15 .countdown-content .logos img {
   font-size: 60px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#25391B), color-stop(30%, #2b4b1b), color-stop(30%, #3b4930), color-stop(73%, #576E45), to(#97B583));
-  background-image: -o-linear-gradient(left, #25391B 0%, #2b4b1b 30%, #3b4930 30%, #576E45 73%, #97B583 100%);
-  background-image: linear-gradient(to right, #25391B 0%, #2b4b1b 30%, #3b4930 30%, #576E45 73%, #97B583 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#C12906), color-stop(30%, #ED6637), color-stop(30%, #ED6637), color-stop(73%, #EFA08E), to(#9594B2));
+  background-image: -o-linear-gradient(left, #C12906 0%, #ED6637 30%, #ED6637 30%, #EFA08E 73%, #9594B2 100%);
+  background-image: linear-gradient(to right, #C12906 0%, #ED6637 30%, #ED6637 30%, #EFA08E 73%, #9594B2 100%);
 }
 .community.style-4 .content .commun-card .inf h5 {
   font-size: 23px;

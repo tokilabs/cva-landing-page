@@ -180,15 +180,15 @@
             color: #000;
             font-size: 21px;
             &:hover{
-                color: var(--color-blue6);
+                color: var(--color-main);
                 a{
-                    color: var(--color-blue6);
+                    color: var(--color-main);
                 }
             }
         }
         small{
             font-size: 11px;
-            color: var(--color-blue6);
+            color: var(--color-main);
             text-transform: uppercase;
             margin-bottom: 10px;
         }

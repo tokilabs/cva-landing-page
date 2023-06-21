@@ -273,7 +273,7 @@ header.style-4{
                 padding: 5px 10px;
                 background-color: #f7f4ff;
                 border-radius: 5px;
-                color: var(--color-blue4);
+                color: var(--color-main);
             }
             h1{
                 font-size: 52px;
@@ -282,7 +282,7 @@ header.style-4{
                 span{
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
-                    background-image: linear-gradient(to right, #25391B 0%, #2b4b1b 30%, #3b4930 30%, #576E45 73%, #97B583 100%);// #501e9c 0%,#8169f1 30%,#8169f1 30%,#a44cee 73%,#ff847f 100%)
+                    background-image: linear-gradient(to right, #C12906 0%,#ED6637 30%,#ED6637 30%,#EFA08E 73%,#9594B2 100%);//#501e9c 0%,#8169f1 30%,#8169f1 30%,#a44cee 73%,#ff847f 100% //CVA #ED6637 #EFA08E #C12906 #9594B2 #D0D0DD #FFFFFF
                 }
             }
             .text{
@@ -296,13 +296,13 @@ header.style-4{
                 .icon{
                     width: 42px;
                     height: 42px;
-                    border: 1px solid #5842bc99;
+                    border: 1px solid var(--color-main);
                     display: inline-flex;
                     align-items: center;
                     justify-content: center;
                     border-radius: 50%;
                     i{
-                        color: var(--color-blue4);
+                        color: var(--color-main);
                         font-size: 16px;
                     }
                 }
@@ -322,10 +322,10 @@ header.style-4{
     .wave{
         position: absolute;
         left: -3%;
-        bottom: -10px;
+        bottom: -20px;
         width: 106%;
         max-width: unset;
-        height: 240px;
+        height: 260px;
         -o-object-fit: cover;
         object-fit: cover;
         -o-object-position: top;

@@ -2,11 +2,11 @@
 
 /* --------------- variable --------------- */
 :root{
-    --color-main:#0066ff; 
-	--color-primary:#0066ff;
+    --color-main:#ED6637; //CVA #ED6637 #EFA08E #C12906 #9594B2 #D0D0DD #FFFFFF
+	--color-primary:#C12906;
 	--color-secondary:#02b5ff;
     --color-blue2: #4a00e1;
-    --color-blue4: #b7440f;//button
+    --color-blue4: #5842bc; 
     --color-blue5: #157efb;
     --color-blue6: #6640f4;
     --color-blue7: #8169f1;
@@ -39,6 +39,14 @@
 .bg-main {
     background-color: var(--color-main) !important;
     border-color: var(--color-main) !important;
+}
+
+.hover-main {
+    transition: all 0.3s ease;
+    &:hover{
+        color: var(--color-primary) !important;
+        border-color: var(--color-primary) !important;
+    }
 }
 
 // -----------
