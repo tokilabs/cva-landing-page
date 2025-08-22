@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.56 52.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed6637;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #c12906;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada_1">
+    <g>
+      <g>
+        <path class="cls-2" d="M7.15,45C-2.82,34.38-2.3,17.7,8.32,7.73c10.15-9.54,25.98-9.53,36.12.01L7.15,45Z"/>
+        <path class="cls-1" d="M25.8,26.38L7.15,45c10.3,10.28,26.99,10.28,37.29,0l-18.64-18.62Z"/>
+      </g>
+      <polygon class="cls-1" points="70.83 52.76 44.45 0 65.52 0 81.36 31.65 70.83 52.76"/>
+      <polygon class="cls-2" points="76.14 0 70.83 10.62 81.36 31.65 97.21 0 76.14 0"/>
+      <polygon class="cls-1" points="99.65 21.12 83.8 52.76 104.87 52.76 110.18 42.14 99.65 21.12"/>
+      <polygon class="cls-2" points="99.65 21.12 110.18 0 136.56 52.76 115.5 52.76 99.65 21.12"/>
+    </g>
+  </g>
+</svg>

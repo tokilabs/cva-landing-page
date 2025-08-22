@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f97316;
+      }
+    </style>
+  </defs>
+  <g>
+    <g id="Camada_1">
+      <path class="cls-1" d="M12.2,1.5h2.2l-4.8,5.5,5.7,7.5h-4.4l-3.5-4.5-4,4.5H1.1l5.2-5.9L.8,1.5h4.5l3.1,4.2,3.6-4.2ZM11.4,13.2h1.2L4.7,2.8h-1.3l8,10.4Z"/>
+    </g>
+  </g>
+</svg>
